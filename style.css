@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-header__container {
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.main-nav__list {
+    display: flex;
+    gap: 115px;
+}
+
+.main-header__logo {
+    margin-right: 244px;
+}
+
+.main-nav__link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    color: #030305;
+    text-decoration: none;
+}
+
+.main-header {
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.first-screen__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 110%;
+    /* or 88px */
+    color: #030305
+}
+
+.first-screen__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    /* or 21px */
+    color: #030305;
+    max-width: 502px;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.products__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #030305
+}
+
+.products__list {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    /* identical to box height, or 36px */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #030305
+}
+
+.products__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px 24px;
+}
+
+.product__image {
+    margin-bottom: 15px;
+}
+
+.product__title {
+    margin: 0;
+    margin-bottom: 17px;
+}
+
+.first-screen {
+    background: url(image/background.png) no-repeat center center;
+    padding-top: 105px;
+    padding-bottom: 154px;
+}
+
+.black-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #030305;
+    padding: 20px 0px;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+}
+
+.first-screen__link {
+    max-width: 334px;
+}
+
+.descriptions {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 13px;
+}
+
+.description__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    /* or 21px */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #030305;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.description__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    /* or 21px */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #030305;
+    margin: 0;
+}
+
+.description__img {
+	margin-bottom: 10px;
+}
+.products {
+	margin-bottom: 100px;
+}
+.ca_form {
+	
+	display: flex;
+	flex-direction: column;
+	max-width: 344px;
+}
+.ca_input {
+	
+	padding: 22px 18px; 
+	background: #FFFFFF;
+
+	margin: 0;
+    margin-bottom: 15px;
+}
+.ca__title {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 70px;
+	color: #030305;
+	margin: 0;
+    margin-bottom: 20px;
+}
+.ca__text {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 130%;
+	/* identical to box height, or 21px */
+	color: #5D5D5F;
+	margin: 0;
+    margin-bottom: 60px;
+}
+ .ca_input::placeholder {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 130%;
+	/* identical to box height, or 21px */
+	color: #5D5D5F;
+ }
+.ca__img {
+	position: absolute;
+	bottom: 0;
+	z-index: -1;
+	right: -140px;
+}
+.ca {
+	position: relative;
+	padding-bottom: 121px;
+}
+.main-footer__container {
+	display: flex;
+	justify-content: space-between;
+	padding: 25px 0;
+}
+.main-footer {
+border-top: 1px solid #E5E5E5;
+}
